@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-color: #674bb1;
     display: flex;
@@ -208,4 +209,164 @@ p{
         width: 350px;
     }
 
+=======
+header{
+    background-color: #21294e;
+    max-height: 120px;
+
+
+
+    
+}
+header img {
+    max-width: 15vh;
+    width: 100%;
+    height: auto;
+
+
+}
+#menu{
+    background-color: rgba(255, 255, 255, 0.699);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+#menu :hover{
+    background-color: white;
+    transform: scale(1,1);
+}
+
+.imagens{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    filter: blur(5px);
+
+}
+
+.container{
+    display: flex;
+}
+body{
+    margin: 0;
+    overflow-x: hidden; 
+}
+
+.texto{
+    visibility: hidden;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    color: white;
+    font-size: 90px;
+
+    transition: 0.3s ease;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;  /* Transição suave para o texto */
+    transform: translate(-50%, -60%);  /* Começa um pouco mais acima */
+}
+.image:hover .imagens {
+    filter: brightness(50%);
+    filter: blur(5px);
+}
+
+.image:hover .texto,
+.image:hover .end  {
+    display: block;
+    opacity: 1;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.5s ease 0.3s, transform 0.2s ease 0.1s;
+    visibility: visible;
+    
+    
+}
+
+.end{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    visibility: hidden;
+
+    color: white;
+    font-size: 30px;
+
+    transition: 0.3s ease;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;  /* Transição suave para o texto */
+    transform: translate(-50%, -60%);
+
+
+
+}
+
+.container-sobre{
+    gap: 30px;
+    top: 500px;
+    position: absolute;
+    max-width: 80%;
+    width: 100%;
+    background-color: #21294e;
+    border-radius: 20px;
+    padding: 50px;
+    color: aliceblue;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+
+
+    left: 220px;
+}
+.sobre-img{
+    width: 600px;
+    border-radius: 10px;
+    gap: 30px;
+    margin: 20px;
+}
+.sob{
+    position: absolute;
+    top:200px;
+    right: 600px;
+    font-size: 50px;
+    color: #feefdd ;
+}
+.log{
+    max-width: 20vh;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 49px;
+    right: 350px;
+
+
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+    .carousel-item {
+    display: flex;
+}
+
+.carousel-item img {
+    width: 33.33%; /* 3 imagens por slide */
+    object-fit: cover;
+}
+
+.container-pizza{
+    padding-top: 600px;
+    display: flex;
+
+    gap: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+
+
+}
+.carda{
+    padding-top: 40px;
+    position: absolute;
+    top: 1200px;
+    color: red;
+    font-size: 60px;
+    right: 1200px;
+}
+.text{
+    max-width: 60%;
+>>>>>>> 62a17e08662d5ebf275177bf20a383389be08ad8
 }
